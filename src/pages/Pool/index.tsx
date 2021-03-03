@@ -123,7 +123,7 @@ export default function Pool() {
                 If you cannot see the pool you joined click 
                 </Text>
                 <Text fontSize="16px" style={{ textDecorationLine: 'underline', color: 'blue' }}>
-                  <Link to="https://exchange.pastafinance.com/#/find">HERE.</Link>
+                  <Link to="/find">HERE.</Link>
                 </Text>
                 <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
                   Or, if you staked your tokens in a farm, unstake them to see them here.
