@@ -78,7 +78,7 @@ export default function Pool() {
                 <Question
                   text={TranslateString(
                     130,
-                    'When you add liquidity, you are given pool tokens that represent your share. If you donâ€™t see a pool you joined in this list, try importing a pool below.'
+                    'When you add liquidity, you are given pool tokens that represent your share. If you don’t see a pool you joined in this list, try importing a pool below.'
                   )}
                 />
               </RowBetween>
@@ -118,8 +118,15 @@ export default function Pool() {
                     {hasV1Liquidity ? 'Migrate now.' : TranslateString(108, 'Import it.')}
                   </StyledInternalLink>
                 </Text>
+
                 <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
-                  Or, if you staked your LP tokens in a farm, unstake them to see them here.
+                If you cannot see the pool you joined click 
+                </Text>
+                <Text fontSize="16px" style={{ textDecorationLine: 'underline', color: 'blue' }}>
+                  <Link to="https://exchange.pastafinance.com/#/find">HERE.</Link>
+                </Text>
+                <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
+                  Or, if you staked your tokens in a farm, unstake them to see them here.
                 </Text>
               </div>
             </AutoColumn>
