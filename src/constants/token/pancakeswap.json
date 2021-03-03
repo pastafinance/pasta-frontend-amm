@@ -640,6 +640,13 @@
       "address": "0xAB9D0Fae6eB062F2698C2D429a1BE9185A5D4F6E",
       "chainId": 56,
       "decimals": 18
+    },
+    {
+      "name": "Dodo",
+      "symbol": "DODO",
+      "address": "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2",
+      "chainId": 56,
+      "decimals": 18
     }
   ]
 }
