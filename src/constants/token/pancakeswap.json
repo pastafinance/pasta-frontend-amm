@@ -647,6 +647,13 @@
       "address": "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2",
       "chainId": 56,
       "decimals": 18
+    },
+    {
+      "name": "Sushi",
+      "symbol": "SUSHI",
+      "address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
+      "chainId": 56,
+      "decimals": 18
     }
   ]
 }
